@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"airbyte/internal/sdk/pkg/models/shared"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/shared"
 	"net/http"
 	"time"
 )

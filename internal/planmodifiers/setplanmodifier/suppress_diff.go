@@ -3,7 +3,7 @@
 package setplanmodifier
 
 import (
-	"airbyte/internal/planmodifiers/utils"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/planmodifiers/utils"
 	"context"
 
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"

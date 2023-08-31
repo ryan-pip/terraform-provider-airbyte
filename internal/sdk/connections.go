@@ -3,9 +3,9 @@
 package sdk
 
 import (
-	"airbyte/internal/sdk/pkg/models/operations"
-	"airbyte/internal/sdk/pkg/models/shared"
-	"airbyte/internal/sdk/pkg/utils"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/operations"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/shared"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/utils"
 	"bytes"
 	"context"
 	"fmt"

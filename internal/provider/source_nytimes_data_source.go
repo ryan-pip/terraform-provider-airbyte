@@ -3,12 +3,12 @@
 package provider
 
 import (
-	"airbyte/internal/sdk"
-	"airbyte/internal/sdk/pkg/models/operations"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/operations"
 	"context"
 	"fmt"
 
-	"airbyte/internal/validators"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/validators"
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"

@@ -3,7 +3,7 @@
 package shared
 
 import (
-	"airbyte/internal/sdk/pkg/types"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/types"
 )
 
 type SourceSnapchatMarketingUpdate struct {

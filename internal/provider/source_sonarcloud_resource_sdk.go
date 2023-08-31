@@ -3,8 +3,8 @@
 package provider
 
 import (
-	"airbyte/internal/sdk/pkg/models/shared"
-	customTypes "airbyte/internal/sdk/pkg/types"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/shared"
+	customTypes "github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/types"
 	"encoding/json"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )

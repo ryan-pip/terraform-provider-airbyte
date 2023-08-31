@@ -3,14 +3,14 @@
 package provider
 
 import (
-	"airbyte/internal/sdk"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk"
 	"context"
 	"fmt"
 
-	speakeasy_listplanmodifier "airbyte/internal/planmodifiers/listplanmodifier"
-	speakeasy_objectplanmodifier "airbyte/internal/planmodifiers/objectplanmodifier"
-	speakeasy_stringplanmodifier "airbyte/internal/planmodifiers/stringplanmodifier"
-	"airbyte/internal/sdk/pkg/models/operations"
+	speakeasy_listplanmodifier "github.com/ryan-pip/terraform-provider-airbyte/internal/planmodifiers/listplanmodifier"
+	speakeasy_objectplanmodifier "github.com/ryan-pip/terraform-provider-airbyte/internal/planmodifiers/objectplanmodifier"
+	speakeasy_stringplanmodifier "github.com/ryan-pip/terraform-provider-airbyte/internal/planmodifiers/stringplanmodifier"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/operations"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"

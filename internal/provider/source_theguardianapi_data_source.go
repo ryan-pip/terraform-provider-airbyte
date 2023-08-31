@@ -3,8 +3,8 @@
 package provider
 
 import (
-	"airbyte/internal/sdk"
-	"airbyte/internal/sdk/pkg/models/operations"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/operations"
 	"context"
 	"fmt"
 

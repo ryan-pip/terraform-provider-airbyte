@@ -3,7 +3,7 @@
 package validators
 
 import (
-	"airbyte/internal/sdk/pkg/types"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/types"
 	"context"
 	"github.com/hashicorp/terraform-plugin-framework-validators/helpers/validatordiag"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"

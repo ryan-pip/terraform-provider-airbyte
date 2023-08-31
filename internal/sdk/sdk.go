@@ -3,8 +3,8 @@
 package sdk
 
 import (
-	"airbyte/internal/sdk/pkg/models/shared"
-	"airbyte/internal/sdk/pkg/utils"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/models/shared"
+	"github.com/ryan-pip/terraform-provider-airbyte/internal/sdk/pkg/utils"
 	"fmt"
 	"net/http"
 	"time"
