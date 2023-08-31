@@ -1,4 +1,4 @@
-module airbyte
+module github.com/airbytehq/terraform-provider-airbyte
 
 go 1.18
 
